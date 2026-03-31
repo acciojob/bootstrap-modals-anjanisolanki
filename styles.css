@@ -1,14 +1,2 @@
 
 /* Your CSS Code here. */
-/* Failsafe to guarantee the modal is vertically centered for the grader */
-#newton-modal .modal-dialog {
-    display: flex !important;
-    align-items: center !important;
-    min-height: calc(100% - 1rem);
-}
-
-/* Optional: Adds a smooth transition to the background overlay */
-.modal-backdrop {
-    opacity: 0.5;
-    transition: opacity 0.15s linear;
-}
